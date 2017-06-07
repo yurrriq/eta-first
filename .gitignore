@@ -1,3 +1,4 @@
+### Haskell ###
 dist
 dist-*
 cabal-dev
@@ -18,3 +19,21 @@ cabal.sandbox.config
 .stack-work/
 cabal.project.local
 .HTF/
+
+
+### Clojure ###
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
+
+
+### Local maven repo ###
+/_repo/
